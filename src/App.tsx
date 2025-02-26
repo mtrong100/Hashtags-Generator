@@ -116,10 +116,12 @@ function App() {
       </div>
 
       {/* Main content */}
-      <div>
-        <h1 className="text-5xl font-bold text-center">Hashtags Generator</h1>
+      <h1 className="text-3xl md:text-5xl font-bold text-center mb-3 md:mb-10">
+        Hashtags Generator
+      </h1>
 
-        <Card className="mt-10 w-[500px]">
+      <div className="p-3">
+        <Card className="w-full min-w-[350px] md:min-w-[500px]">
           <CardHeader>
             <CardTitle>Auto Generate Hashtags</CardTitle>
             <CardDescription>Using Gemini AI API</CardDescription>
